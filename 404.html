@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jihye Choi — moved to jihyechoi.xyz</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://jihyechoi.xyz/">
+  <meta http-equiv="refresh" content="0; url=https://jihyechoi.xyz/">
+  <script>
+    // Keep paths that still exist on the new site; send everything else home.
+    (function () {
+      var p = location.pathname;
+      var keep = p === "/CV.pdf" || p.indexOf("/policybank") === 0 || p.indexOf("/assets/") === 0;
+      location.replace("https://jihyechoi.xyz" + (keep ? p : "/") + location.hash);
+    })();
+  </script>
+</head>
+<body>
+  <p>This website has moved to <a href="https://jihyechoi.xyz/">jihyechoi.xyz</a>.</p>
+</body>
+</html>
